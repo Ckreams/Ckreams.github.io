@@ -8,7 +8,7 @@
       <link href="/2022/05/15/My-New-Post/"/>
       <url>/2022/05/15/My-New-Post/</url>
       
-        <content type="html"><![CDATA[  <style>input{background-color:red;};input:hover{background-color:green;}</style>  <div style="display:flex;flex-direction:column;align-items:center">  <p style="color:red">我是一个程序员</p>  <ul style="display:flex;list-style:none">    <li>1</li>    <li>2</li>    <li>3</li>    </ul>  <input type="text" style="border:0;border-radius:5px;">  </div>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2022/04/29/LxdFQx.png"></p><style>input{background-color:red;};input:hover{background-color:green;}</style>  <div style="display:flex;flex-direction:column;align-items:center">  <p style="color:red">我是一个程序员</p>  <ul style="display:flex;list-style:none">    <li>1</li>    <li>2</li>    <li>3</li>    </ul>  <input type="text" style="border:0;border-radius:5px;">  </div>]]></content>
       
       
       
