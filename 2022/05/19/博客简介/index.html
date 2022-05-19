@@ -11,6 +11,11 @@
   
   <title>
     
+      Blogs 
+      
+      
+      |
+    
      Ckreams-blog
   </title>
 
@@ -110,43 +115,140 @@
 
 
       <div class="flex-container">
-        <div class="container index">
-  <div class="post-list">
-    <!-- 遍历渲染文章 -->
-    
-      <div class="post-item" title="Blogs">
-        <div class="time-m-d">2022-05-19</div>
-        <div class="title">
-          <a href="/2022/05/19/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/">
-            
-              
-                <span>Blogs</span>
-              
-            
-          </a>
-        </div>
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">Blogs</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="更新时间"></i>
+          2022-05-19 23:18:18
+        </span>
+        
       </div>
-    
-      <div class="post-item" title="Hello World">
-        <div class="time-m-d">2022-05-15</div>
-        <div class="title">
-          <a href="/2022/05/15/hello-world/">
+      <div class="markdown-body">
+        <p><img src="https://s1.ax1x.com/2022/05/19/OqBC4O.png"></p>
+<h1 id="恭喜-您出生了"><a href="#恭喜-您出生了" class="headerlink" title="恭喜 您出生了"></a>恭喜 您出生了</h1><div>
+在百无聊赖的工作日中，偶然间看到了一位B站UP主展示自己博客的视频，看的我心痒痒，于是……做一个属于自己的博客这股子冲动，我就难以克制了。<br>
+说干就干，说实话我在做这个之前对代码不甚了解，唯一的接触是Ae里的表达式，可在仿照B站教学套用别人的模版之后，进行个性化设置便是亟待解决的问题，在经过无数报错和莫名其妙问题的痛苦洗礼后，终于！
+  我的博客诞生了……
+
+<h1 id="关于博客的内容"><a href="#关于博客的内容" class="headerlink" title="关于博客的内容"></a>关于博客的内容</h1><p>其实做博客的初衷呢，就是为了与更多志同道合的伙伴，交流分享剪辑后期或者前段的一些学习笔记以及练习作业，当然，在制作的间隙，我倒是觉得他应该可以发挥更大的作用，例如完善一下<a href="#jump_8">资源库</a>，把各种杂乱的资源分类并附上预览以方便选择，同时统一预览以及<a href="#jump_8">下载方式</a>（这些是我创作时的一大头疼问题），博客的主要分类为：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span> = <span class="string">“classify”</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>前端（Html、Css、Js等）<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>剪辑后期（Ae、Pr等）<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>资源库（涵盖影音、娱乐、学习、办公、设计以及艺术等方面）<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>分类会随着内容的更新变动，每篇文章也会有不同种类的标签，以便更快更精准的找到你所想的内容！</p>
+<h1 id="杂言"><a href="#杂言" class="headerlink" title="杂言"></a>杂言</h1><p>在大学的时候，就开通了自己公众号——<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzA4ODQxMjgyNA==&mid=2247483816&idx=1&sn=7585639878dc36e5bfa70290f889b0a4&chksm=902bc65fa75c4f4929f562b86d363b923ed1cbcfd07f97ef97d65069e6a39eefb904675c315b&token=24709101&lang=zh_CN#rd">柒柒工坊</a>，可惜的是并没有坚持更新下去，并以两年三篇文章的魔幻的更新速度，成功“停运”…所以，这个博客绝对不能再步我的公众号的后尘，为了和大家交流学习，也为了让自己坚持自己所学，柒柒的博客，要加油啊！哈哈哈哈！</p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p><a id="jump_8"></a></p>
+<ol>
+<li>所有非注明自创的资源均为网络转载 仅供交流学习 如有侵权及时联系我删除</li>
+<li>关于我的学习笔记以及练手 欢迎大家评论 留下自己独特的想法 但要维护良好的网络发言环境</li>
+<li>资源的下载方式：兵贵神速 柒柒会优先提供“简单粗暴”的直链下载，其次是蓝奏云以及百度云，除此以外还有github文件下载方式，考虑到github的下载访问速度慢，柒柒也提供了github加速器：<a href="#">GithubFast</a></li>
+<li>我的邮箱地址：<a href="mailto:2564535336@qq.com">2564535336@qq.com</a>,如果网站出现无法访问等情况请及时联系</li>
+<li>文章更新：博客建设前期会大量更新资源库以保证涵盖面广资源丰富 后期将稳定更新文章及资源</li>
+</ol>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
             
-              
-                <span>Hello World</span>
-              
+              <a href="/2022/05/15/hello-world/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>上一页</span>
+              </a>
             
-          </a>
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="更新时间"></i>
+              2022-05-19 23:18:18
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
+      
+    </div>
+    
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">目录</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%81%AD%E5%96%9C-%E6%82%A8%E5%87%BA%E7%94%9F%E4%BA%86"><span class="toc-text">恭喜 您出生了</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%86%85%E5%AE%B9"><span class="toc-text">关于博客的内容</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9D%82%E8%A8%80"><span class="toc-text">杂言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B6%E4%BB%96"><span class="toc-text">其他</span></a></li></ol>
+      
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
+    
+      <div class="comments-container">
+        
+
+
+
+
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+  <div id="vcomments"></div>
+
+  <script>
+    new Valine({
+      el: '#vcomments',
+      appId: 'vmwiMWvj7JS59dGndOsNrCUJ-gzGzoHsz',
+      appKey: '3gcCscAE89f1DlBAX4Wzp5aP',
+      placeholder: '把你的想法蚀刻进时间里...',
+      avatar: 'retro',
+      lang: 'zh-CN'
+    })
+  </script>
+
+    <style>
+      .comments-container .v .vempty {
+        display: none!important;
+      }
+    </style>
+
+
+
+
       </div>
     
   </div>
-  <nav class="post-navigation">
-    
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+
 
         
 <div class="footer">
@@ -406,6 +508,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + Blogs + '&url=' + http%3A%2F%2Fexample.com%2F2022%2F05%2F19%2F%25E5%258D%259A%25E5%25AE%25A2%25E7%25AE%2580%25E4%25BB%258B%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://example.com/2022/05/19/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
