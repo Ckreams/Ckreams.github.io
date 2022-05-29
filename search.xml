@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Win美化-TaskbarX-TranslucentTB</title>
+      <link href="/2022/05/29/My-New-Post/"/>
+      <url>/2022/05/29/My-New-Post/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2022/05/22/OzI228.png" alt="所有资源来自互联网 仅供交流学习 侵删"></p><h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p><code>前情提要：适用于win10的小伙伴哦！</code></p><div>关于window美化，我之前还是在B站上做了不少功课，各种花里胡哨、实用或是不实用的都在我的电脑上一通乱搞，这么长时间下来，总结的经验就是：自启动、占用少、适配较好的才能长存，麻麻烦烦的终究会卸载。<br>这里介绍两款win任务栏美化工具，符合我上面总结的三点，主要的表现形式是任务栏居中以及透明或全局模糊</div><p><img src="https://s1.ax1x.com/2022/05/22/Oz7XM8.png" alt="两者的效果"></p><h3 id="TaskbarX"><a href="#TaskbarX" class="headerlink" title="TaskbarX"></a>TaskbarX</h3><p>TaskbarX会给你一个原始的Windows扩展坞般的感觉。当在任务栏中添加或删除图标时，图标将移动到中心或用户给定的位置。<br>准确的说：当你打开这个软件的时候，任务栏图标就可以自动居中了，而且开机自启动，占用也极低。</p><p><img src="https://s1.ax1x.com/2022/05/22/OzqCvV.png" alt="占用率"></p><p><code>重点就是可以将任务栏的图标居中 同时不影响window原本的图标</code></p><h3 id="TranslucentTB"><a href="#TranslucentTB" class="headerlink" title="TranslucentTB"></a>TranslucentTB</h3><p><code>本软件可以在windows商店里直接下载</code><br><br>任务栏透明我觉得是window自定义美化的一个前提，或者类似wallpaper那样的系统强调色，因为整个色系要保持一致，而TranslucentTB就很好解决了这问题，打开以后在右下角有拓展选项，主要调整的选项即各种模式：正常、<code>透明</code>、不透明、<code>模糊</code>、亚古力</p><p><img src="https://s1.ax1x.com/2022/05/22/Ozq9g0.png" alt="自定义界面"></p><p>运行时系统占用资源极小，可以放心使用，内存方面，TranslucentTB 仅占用不足 4MB ，耗电方面，可以忽略不计。而且同样开机自启，无感启动，才是美化灵魂。让它像系统一样自然。</p><p><img src="https://s1.ax1x.com/2022/05/25/XAuP2T.png" alt="系统设置"></p><p>在window商店里下载的，你甚至可以在系统里直接设置它。</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p><a id="jump_8"></a><br>本期推荐的是简洁无感的美化插件，当然也有小伙伴喜欢类似Mac风的dock栏等等，考虑到这一点我会再出一期桌面美化，更多关于dock栏的内容。<br><br>更多下载方式：<br></p><li>蓝奏云：https://wws.lanzoul.com/ia7vA05fm8yf</li><li>Github：https://github.com/Ckreams/beautification/raw/main/TaskbarX.zip</li><li>百度云：链接：https://pan.baidu.com/s/1ptIQ9prPN-Whm3KSei5uvQ?pwd=53ti 提取码：53ti </li>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 美化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Blogs</title>
       <link href="/2022/05/19/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/"/>
       <url>/2022/05/19/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</url>
