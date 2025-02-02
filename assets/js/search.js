@@ -1,13 +1,16 @@
-// 创建 search.js
+// assets/js/search.js
 document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('blog-search');
+  const postItems = document.querySelectorAll('.post-item');
   
-  searchInput.addEventListener('input', (e) => {
-    const term = e.target.value.toLowerCase();
-    
-    document.querySelectorAll('.post-item').forEach(post => {
+  const performSearch = (term) => {
+    postItems.forEach(post => {
       const text = post.innerText.toLowerCase();
       post.style.display = text.includes(term) ? 'block' : 'none';
     });
+  };
+
+  searchInput.addEventListener('input', (e) => {
+    performSearch(e.target.value.trim().toLowerCase());
   });
 });
