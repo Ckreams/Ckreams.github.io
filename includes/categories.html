@@ -1,1 +1,22 @@
-
+<!-- _includes/categories.html -->
+{% raw %}
+<!-- 分类系统参数说明 -->
+<div class="categories">
+  <h2>📚 文章分类</h2>
+  <ul>
+    {% for category in site.categories %}
+    <li>
+      <!-- 
+        category[0]: 分类名称 
+        category[1]: 该分类下的文章数组
+        slugify: 生成URL安全格式
+      -->
+      <a href="/blog/{{ category[0] | slugify }}/" 
+         class="cat-{{ category[0] | slugify }}">
+        {{ category[0] }} ({{ category[1].size }})
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endraw %}
