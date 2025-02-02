@@ -1,0 +1,15 @@
+// 在 main.scss 中添加
+.post-item {
+  padding: 1rem;
+  @media (max-width: 768px) {
+    padding: 0.5rem;
+    font-size: 0.9em;
+  }
+}
+
+.search-box {
+  width: 80%;
+  @media (min-width: 1024px) {
+    width: 50%;
+  }
+}
