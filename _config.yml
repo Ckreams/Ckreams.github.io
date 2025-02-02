@@ -1,0 +1,12 @@
+# _config.yml 基础安全配置
+title: 柒柒工坊
+description: 工具集合与博客
+baseurl: ""
+url: "https://Ckreams.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+
+# 中国访问优化
+timezone: Asia/Shanghai
+encoding: utf-8
