@@ -10,3 +10,8 @@ plugins:
 # 中国访问优化
 timezone: Asia/Shanghai
 encoding: utf-8
+
+# 加载自定义样式
+sass:
+  sass_dir: assets/css
+  style: compressed
