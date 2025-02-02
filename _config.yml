@@ -7,6 +7,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+#关联博客主页面
+include: ['_includes']
+exclude: ['node_modules']
+
 # 中国访问优化
 timezone: Asia/Shanghai
 encoding: utf-8
