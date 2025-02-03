@@ -4,7 +4,13 @@ title: 技术博客
 permalink: /blog/
 ---
 
-{% include categories.html %}
+<ul class="category-list">
+  {% for category in site.categories %}
+  <li>
+    {{ category[0] }} ({{ category[1].size }})
+  </li>
+  {% endfor %}
+</ul>
 
 <div class="posts">
   {% for post in site.posts %}
