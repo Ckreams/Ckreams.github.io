@@ -9,7 +9,7 @@ tags: [入门]
 
 ## 建网站这件事儿 
 
-![deepseek](https://s21.ax1x.com/2025/02/02/pEZynsI.jpg) 
+![deepseek](../image/deepseek.jpeg)
 
 自己做博客做了有三次了吧，时间跨度保守估计**四年**了，结果呢，人家**deepseek**都横空出世了，我连个博客搜索栏的功能都还没整明白呢。 
 
