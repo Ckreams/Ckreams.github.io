@@ -1,64 +1,42 @@
 /* assets/css/main.scss */
 
-// 基础样式
-.posts {
-  margin: 2rem 0;
-}
+/* 响应式布局系统 */
+$breakpoints: (
+  mobile: 768px,
+  tablet: 1024px
+);
 
-.post-item {
-  padding: 1rem;
-  border-bottom: 1px solid #eee;
-  
-  h3 {
-    margin: 0 0 0.5rem 0;
-    a {
-      color: #2c3e50;
-      text-decoration: none;
-      &:hover {
-        color: #3498db;
-      }
-    }
+@mixin respond-to($breakpoint) {
+  @media (max-width: map-get($breakpoints, $breakpoint)) {
+    @content;
   }
 }
 
-// 分类导航
-.categories-nav {
-  background: #f8f9fa;
-  padding: 1rem;
-  border-radius: 8px;
+/* 文章卡片样式 */
+.post-card {
+  padding: 1.5rem;
   margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    margin: 0.5rem 0;
-  }
-  
-  a {
-    display: block;
-    padding: 0.5rem;
-    color: #34495e;
-    &:hover {
-      background: #e9ecef;
-    }
+  @include respond-to(mobile) {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
   }
 }
 
-// 移动端适配
-@media (max-width: 768px) {
-  .post-item {
-    padding: 0.5rem;
-    font-size: 0.9em;
-  }
+/* 分类标签样式 */
+.tag {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  margin-right: 0.5rem;
+  background: #e8f4ff;
+  border-radius: 20px;
+  font-size: 0.9em;
   
-  .categories-nav {
-    padding: 0.5rem;
-    h2 {
-      font-size: 1.2rem;
-    }
+  &::before {
+    content: "#";
+    margin-right: 0.2rem;
+    color: #3498db;
   }
 }
